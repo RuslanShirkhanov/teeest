@@ -1,0 +1,43 @@
+name: teeest
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+    sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+    flutter:
+        sdk: flutter
+
+    bloc: ^8.1.2
+    flutter_bloc: ^8.1.2
+    flutter_screenutil: ^5.8.4
+
+dev_dependencies:
+    flutter_lints: ^2.0.0
+
+flutter:
+    uses-material-design: true
+
+    fonts:
+        - family: SF Pro Display
+          fonts:
+              - asset: fonts/SF-Pro-Display-Black.otf
+              - asset: fonts/SF-Pro-Display-BlackItalic.otf
+              - asset: fonts/SF-Pro-Display-Bold.otf
+              - asset: fonts/SF-Pro-Display-BoldItalic.otf
+              - asset: fonts/SF-Pro-Display-Heavy.otf
+              - asset: fonts/SF-Pro-Display-HeavyItalic.otf
+              - asset: fonts/SF-Pro-Display-Light.otf
+              - asset: fonts/SF-Pro-Display-LightItalic.otf
+              - asset: fonts/SF-Pro-Display-Medium.otf
+              - asset: fonts/SF-Pro-Display-MediumItalic.otf
+              - asset: fonts/SF-Pro-Display-Regular.otf
+              - asset: fonts/SF-Pro-Display-RegularItalic.otf
+              - asset: fonts/SF-Pro-Display-Semibold.otf
+              - asset: fonts/SF-Pro-Display-SemiboldItalic.otf
+              - asset: fonts/SF-Pro-Display-Thin.otf
+              - asset: fonts/SF-Pro-Display-ThinItalic.otf
+              - asset: fonts/SF-Pro-Display-Ultralight.otf
+              - asset: fonts/SF-Pro-Display-UltralightItalic.otf
