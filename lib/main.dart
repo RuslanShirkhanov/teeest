@@ -30,5 +30,5 @@ Future<void> _body() async {
   return runApp(const App());
 }
 
-void _onError(Object error, StackTrace stackTrace) =>
+void _onError(final Object error, final StackTrace stackTrace) =>
     log('error', error: error, stackTrace: stackTrace);

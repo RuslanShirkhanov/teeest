@@ -25,7 +25,7 @@ final class AppView extends StatelessWidget {
   Widget build(final BuildContext context) =>
       BlocBuilder<SettingsCubit, Settings>(
         builder: (final context, final settings) => ScreenUtilInit(
-          designSize: const Size(375, 812),
+          designSize: designSize,
           builder: (final context, final child) => MaterialApp(
             theme: light,
             darkTheme: dark,
@@ -36,6 +36,8 @@ final class AppView extends StatelessWidget {
         ),
       );
 }
+
+const designSize = Size(375, 812);
 
 extension SettingsX on Settings {
   static const _default =
