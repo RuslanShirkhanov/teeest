@@ -13,8 +13,9 @@ final class App extends StatelessWidget {
 
   @override
   Widget build(final BuildContext context) => BlocProvider<SettingsCubit>(
-      create: (final context) => SettingsCubit(SettingsX.system),
-      child: const AppView());
+        create: (final context) => SettingsCubit(SettingsX.system),
+        child: const AppView(),
+      );
 }
 
 @immutable
