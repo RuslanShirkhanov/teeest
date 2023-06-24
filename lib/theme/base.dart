@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-final textTheme = TextTheme(
+TextTheme get textTheme => TextTheme(
   headlineLarge: TextStyle(
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.w700,
@@ -26,7 +26,7 @@ final textTheme = TextTheme(
   ),
 );
 
-final base = ThemeData(
+ThemeData get base => ThemeData(
   useMaterial3: true,
   textTheme: textTheme,
   fontFamily: 'SF-Pro-Display',
